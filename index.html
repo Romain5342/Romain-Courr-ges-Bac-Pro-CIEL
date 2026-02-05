@@ -1,58 +1,139 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	
-		<title>Bienvenue dans mon portfolio</title>
-		
-	</head>
-	<body>
-	<link rel="stylesheet" href="style.css">
-	<h1>Ma présentation</h1>
-	<p>
-	Bonjour, je m’appelle Romain Courrèges et je suis actuellement élève en première Bac Professionnel CIEL (Cybersécurité, Informatique et réseaux, Électronique).
-	Sur mon portfolio vous pouvez trouver mes comptes rendues de TP réalisé en cours.mais également mon CV. 
-	</p>
-	
-	<h2 id="autres" style="margin-left: 1em;">Mon CV</h2>
-    <a href="page2.index" >
-        <figure>
-           
-        </figure>
-    </a>
-	
-	<h2>Mes TP</h2>
-	
-	<a href="page3.index">
-		 <figure>
-            <img src="TP Dual Boot.jpg" alt="TP" width="200px" />
-        </figure>
-	</a>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romain Courrèges</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-	<h2>Mes expèrience professionnel</h2>
-	 
-	 <p>
-	Stage d’observation – FTP Informatique
-	Date : Janvier 2023 - 1 semaine | Septembre 2024 - 1 semaine
-	</p>
-	
-	<ul>
-	<li>Découverte du monde professionnel</li>
-	<li>Observation de techniciens informatiques</li>  
-	<li>Initiation à la gestion du matériel et du réseau</li>
-	</ul>
-	
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Mes TP</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale -->
+    <main>
+
+        <!-- Présentation -->
+        <section id="presentation">
+            <h1>Courrèges Romain</h1>
+            <p>
+                Bonjour, je m’appelle Romain Courrèges et je suis actuellement élève en première Bac Professionnel CIEL (Cybersécurité, Informatique et réseaux, Électronique).
+	Sur mon portfolio vous pouvez trouver mes compéteneces mais également mes comptes rendues de TP réalisé en cours.Vous pouvez retrouver aussi mon CV et lettre de motivation  et mes contacts mail et Numéro de téléphone 
+            </p>
+        </section>
+
+        <!-- Expériences professionnelles -->
+        <section id="experience">
+            <h2>Expériences professionnelles</h2>
+
+            <article>
+                <h3>Stage d’observation – DSI (Direction service informatique) de l'aglomération de mont de marsan</h3>
+                <p><strong>Période : 7 semaines</strong> Septembre 2025 – Janvier 2026</p>
+                <p> - Installation de système d'exploitation
+					- Dépannage et intallation de logiciel Métier
+					- Réparation ordinateur
+				</p>
+            </article>
+
+            <article>
+                <h3>Stage d’observation – FTP Informatique</h3>
+                <p><strong>Période : 1 semaine</strong> Septembre 2024 – Septembre 2024</p>
+                <p> - Installation de système d'exploitation
+					- Dépannage
+					- Réparation ordinateur
+					</p>
+            </article>
+			
+			<article>
+                <h3>Stage d’observation – FTP Informatique</h3>
+                <p><strong>Période : 1 semaine</strong> Janvier 2023 – Janvier 2023</p>
+                <p> - Installation de système d'exploitation
+					- Dépannage
+					- Réparation ordinateur
+					</p>
+            </article>
+			
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Installation de systèmes (Windows, Linux)</li>
+                <li>Sécurité informatique (notions de base)</li>
+                <li>Câblage et branchement matériel</li>
+                <li>Réparation de matériel Informatique</li>
+            </ul>
+        </section>
+
+        <!-- Projets / TP -->
+        <section id="projets">
+            <h2>Mes TP réalisés</h2>
+
+            <article>
+                <h3>Tp Dual Boot</h3>
+                <p>tp dual boot</p>
+                <a href="tp1/index.html">Voir le TP</a>
+                <br>
+                <a href="documents/tp1-compte-rendu.pdf" download>
+                    Télécharger le compte rendu
+                </a>
+            </article>
+
+        </section>
+
+        <!-- Documents téléchargeables -->
+        <section id="documents">
+            <h2>Documents</h2>
+            <ul>
+                <li>
+                    <a href="documents/CV.jpg" download>
+                        Télécharger mon CV
+                    </a>
+                </li>
+                <li>
+                    <a href="documents/Lettre-motivation.docx" download>
+                        Télécharger ma lettre de motivation
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Email :
+                <a href="mailto:Romain.courreges.mfr@gmail.com">
+                    Romain.courreges.mfr@gmail.com
+                </a>
+            </p>
+            <p>
+                Téléphone :
+                <a href="tel:+33780432889">
+                    07 80 43 28 89
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2026 Courrèges Romain - Portfolio</p>
+    </footer>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
