@@ -155,9 +155,9 @@ footer {
     height: 25px;
     background: white;
     opacity: 0.5;
-}
+    }
 
-/* Mise en avant Chef-d'œuvre */
+}
 .chef a {
     background: white;
     color: var(--couleur-principale);
