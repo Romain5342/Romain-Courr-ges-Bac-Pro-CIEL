@@ -148,26 +148,4 @@ footer {
     h1 {
         font-size: 2rem;
     }
-}
-/* Séparateur dans le menu */
-.separateur {
-    width: 2px;
-    height: 25px;
-    background: white;
-    opacity: 0.5;
-    }
-
-}
-.chef a {
-    background: white;
-    color: var(--couleur-principale);
-    padding: 6px 12px;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.chef a:hover {
-    background: #e0e0e0;
-    transform: scale(1.05);
-}
 
